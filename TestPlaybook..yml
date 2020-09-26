@@ -1,0 +1,4 @@
+- name: Run a command under cmd
+  win_shell: mkdir C:\temp
+  args:
+    executable: cmd.exe
